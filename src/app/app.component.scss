@@ -1,0 +1,16 @@
+.page {
+  margin: auto;
+  height: 100vh;
+  width: 800px;
+  background-color: hsl(204, 86%, 53%, 0.5);
+  border: 1px solid transparent;
+}
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+}
+
+.options {
+  text-transform: capitalize;
+}

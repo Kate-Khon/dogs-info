@@ -1,0 +1,10 @@
+<div class="dog">
+  <h2 class="dog__title">{{ dogInfo }}</h2>
+  <img
+    class="dog__image"
+    [src]="imgLink"
+    [alt]="dogInfo"
+  >
+
+  <a class="dog__button button is-link" [href]="'https://en.wikipedia.org/wiki/' + dogInfo">Learn more about {{ dogInfo }}</a>
+</div>
